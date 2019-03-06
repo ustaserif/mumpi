@@ -144,5 +144,6 @@ TEST_F(RingBufferTest, TestWrapOverwrite) {
 
 int main(int argc, char **argv) {
 	::testing::InitGoogleTest(&argc, argv);
+	printf("TEST\n\r");
 	return RUN_ALL_TESTS();
 }
